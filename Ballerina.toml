@@ -1,0 +1,15 @@
+[package]
+org = "dell"
+name = "sportizza_backend"
+version = "0.1.0"
+distribution = "2201.10.1"
+
+[build-options]
+observabilityIncluded = true
+
+[dependencies]
+ballerinax-mongodb = "2.3.0"
+"ballerina/config" = "1.3.0"
+"ballerina/os" = "1.3.0"
+
+
